@@ -1,6 +1,6 @@
 ---
 layout: default
-title: bopjiang's Blog
+title: bopjiang's blog
 ---
 <p>
 &nbsp; Happy coding.
