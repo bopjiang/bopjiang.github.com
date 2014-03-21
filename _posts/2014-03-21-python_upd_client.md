@@ -8,8 +8,7 @@ tags: [network, python]
 {% include JB/setup %}
 
 第一次写UDP程序，超乎寻常的简单
--------
--------
+
 ```python
 >>> import socket
 >>> s = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
