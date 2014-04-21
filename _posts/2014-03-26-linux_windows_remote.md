@@ -26,6 +26,7 @@ linux访问windows桌面
 ------
 
 * rdesktop
-```bash
+
+~~~bash
 rdesktop -a 16 172.16.13.88:3389 -u jiangjia -g 1024*768 
-```
+~~~

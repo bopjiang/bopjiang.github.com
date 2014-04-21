@@ -10,16 +10,16 @@ tags: [linux, bash, network]
 获取全球IP地址分配列表
 -------
 -------
-```bash
+~~~bash
 curl http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest -o iplist.txt
-```
+~~~
 
 统计
 ------
 ------
-```bash
+~~~bash
 [jiangjia@houtaiceshi1 ipaddr]$ cat  iplist.txt  |grep ipv4 |grep \|CN\| | cut -d \| -f 5 | awk '// {sum += $1};END {print sum}'
 330410496
-```
+~~~
 
 IP v4才3.3亿，难怪深圳联通ADSL宽带分配给我是个私网IP了，合同到期坚决换掉。

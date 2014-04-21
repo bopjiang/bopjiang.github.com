@@ -9,7 +9,7 @@ tags: [network, python]
 
 第一次写UDP程序，超乎寻常的简单
 
-```python
+~~~python
 >>> import socket
 >>> s = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 
@@ -18,4 +18,4 @@ tags: [network, python]
 23
 >>> s.recvfrom(1024)
 ('test2014-03-21_08-35-57', ('172.16.12.28', 7301))
-```
+~~~
