@@ -1,0 +1,18 @@
+---
+layout: post
+title: "使用jekyll-bootstrap和github建立个人博客"
+description: "blog"
+category: blog
+tags: [blog github]
+---
+{% include JB/setup %}
+
+### 安装jekyll-bootstrap
+<http://www.ithans.com/blog/2013/02/18/jekyll-bootstrap-install/>
+
+### 出错处理 
+1. ls  server的时候报错：/var/lib/gems/1.9.1/gems/execjs-1.4.0/lib/execjs/runtimes.rb:51:in `autodetect': Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
+
+    原因：没有js运行时环境
+
+    解决办法：安装js运行时环境，比如sudo apt-get install nodejs
