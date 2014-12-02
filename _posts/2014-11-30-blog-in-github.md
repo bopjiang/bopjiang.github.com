@@ -10,8 +10,14 @@ tags: [blog github]
 ### 安装jekyll-bootstrap
 <http://www.ithans.com/blog/2013/02/18/jekyll-bootstrap-install/>
 
+### 本地测试环境
+jekyll b //编译
+
+jekyll s --watch  //运行服务（有变动时实时编译）
+
+
 ### 出错处理 
-1. ls  server的时候报错：/var/lib/gems/1.9.1/gems/execjs-1.4.0/lib/execjs/runtimes.rb:51:in `autodetect': Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
+1. jekyll serve启动服务的时候报错：/var/lib/gems/1.9.1/gems/execjs-1.4.0/lib/execjs/runtimes.rb:51:in `autodetect': Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
 
     原因：没有js运行时环境
 
