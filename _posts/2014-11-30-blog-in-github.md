@@ -7,6 +7,8 @@ tags: [blog github]
 ---
 {% include JB/setup %}
 
+注意：仅在Ubuntu 14.04环境下测试过。
+
 ### 安装jekyll-bootstrap
 <http://www.ithans.com/blog/2013/02/18/jekyll-bootstrap-install/>
 
