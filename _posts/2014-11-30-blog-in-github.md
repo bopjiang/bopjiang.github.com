@@ -11,10 +11,11 @@ tags: [blog github]
 <http://www.ithans.com/blog/2013/02/18/jekyll-bootstrap-install/>
 
 ### 本地测试环境
-jekyll b //编译
 
-jekyll s --watch  //运行服务（有变动时实时编译）
-
+~~~bash
+jekyll b          ## 编译
+jekyll s --watch  ## 运行服务（有变动时实时编译）
+~~~
 
 ### 出错处理
 1. jekyll serve启动服务的时候报错：
