@@ -30,7 +30,7 @@ tags: [respberrypi xbmc tv]
 
 ### 过程
 - 在SD卡上做好系统
-- 修改配置文件，设置http控制端口
+- 修改配置文件，设置http控制端口(有raspi-config的脚本可以用)
 - 手机端安装遥控程序(XBMC Remote), 使用配置的HTTP端口
 - 安装中文插件xbmc-addons-chinese
 
