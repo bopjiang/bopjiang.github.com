@@ -2,7 +2,7 @@
 layout: post
 title: "Measure, Statsd and Graphite"
 description: "Graphite"
-category: tech
+category: blog
 tags: [graphite statsd]
 ---
 {% include JB/setup %}

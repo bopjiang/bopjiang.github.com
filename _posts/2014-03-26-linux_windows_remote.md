@@ -2,8 +2,8 @@
 layout: post
 title: "Linux与Windows间相互远程访问"
 description: "远程访问remote"
-category: linux
-tags: [linux]
+category: blog
+tags: [linux windows remote 远程]
 ---
 {% include JB/setup %}
 

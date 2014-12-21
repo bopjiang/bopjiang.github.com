@@ -2,7 +2,7 @@
 layout: post
 title: "分配给中国的IP有多少个"
 description: "ip地址统计"
-category: linux
+category: blog
 tags: [linux, bash, network]
 ---
 {% include JB/setup %}

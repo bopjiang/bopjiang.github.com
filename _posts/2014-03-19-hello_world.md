@@ -2,7 +2,7 @@
 layout: post
 title: "Hello world"
 description: "测试"
-category: linux
+category: blog
 tags: [linux, 技术]
 ---
 {% include JB/setup %}

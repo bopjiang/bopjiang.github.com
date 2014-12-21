@@ -2,7 +2,7 @@
 layout: post
 title: "Python UDP客户端"
 description: "Python UDP client"
-category: python
+category: blog
 tags: [network, python]
 ---
 {% include JB/setup %}

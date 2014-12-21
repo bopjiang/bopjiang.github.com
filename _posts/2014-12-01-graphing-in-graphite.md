@@ -2,7 +2,7 @@
 layout: post
 title: "使用graphite做指标统计和绘图"
 description: "graphing"
-category: graphing
+category: blog
 tags: [graphing graphite]
 ---
 {% include JB/setup %}

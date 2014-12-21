@@ -2,7 +2,7 @@
 layout: post
 title: "使用emacs进行golang编程"
 description: "golang programming in emacs"
-category: emacs
+category: blog
 tags: [linux, emacs, golang]
 ---
 {% include JB/setup %}
