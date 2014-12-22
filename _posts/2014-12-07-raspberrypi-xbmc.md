@@ -3,7 +3,7 @@ layout: post
 title: "自己动手做个机顶盒"
 description: "XBMC on Respberry Pi"
 category: blog
-tags: [respberrypi xbmc tv]
+tags: [respberrypi, xbmc, tv]
 ---
 {% include JB/setup %}
 
