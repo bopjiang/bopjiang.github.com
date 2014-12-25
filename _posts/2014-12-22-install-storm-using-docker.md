@@ -28,12 +28,7 @@ tags: [docker, storm, pip, fig]
   首先安装pip 
 
   ~~~bash
-  $wget https://bootstrap.pypa.io/get-pip.py
-  $sudo python get-pip.py
-  $
-  $sudo pip install --upgrade setuptools
-  $sudo pip install --upgrade distribute 
-  $
+  $sudo apt-get install python-pip 
   $sudo pip install fig
   ~~~
 
