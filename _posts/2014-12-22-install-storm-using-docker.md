@@ -50,7 +50,7 @@ tags: [docker, storm, pip, fig]
   <http://172.16.12.31:49080/index.html>
 
 #### 加入topology
-* 新增自己往example中加的一个topopogy: call-perf-topology
+* 新增一个topopogy到cluster: call-perf-topology
 
   ~~~bash
   $storm jar target/call-perf-0.1.0-jar-with-dependencies.jar com.uxin.storm.RollingTopWords call-perf-topology  remote -c nimbus.host=172.16.12.31 -c nimbus.thrift.port=49627
