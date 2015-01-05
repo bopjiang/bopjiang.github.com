@@ -21,7 +21,8 @@ tags: [linux unix]
 
   英文原版：[The UNIX-HATERS Handbook](http://web.mit.edu/~simsong/www/ugh.pdf)
 
-
+* [Linux/Unix设计思想](http://book.douban.com/subject/7564417/)
+  
 
 
 
