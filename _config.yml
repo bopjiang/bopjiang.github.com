@@ -81,7 +81,7 @@ JB :
   #
   comments :
     provider : duoshuo
-    disqus :
+    duoshuo :
       short_name : bopjiang
     livefyre :
       site_id : 123
