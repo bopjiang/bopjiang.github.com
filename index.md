@@ -1,6 +1,6 @@
 ---
 layout: default
-title: bopjiang's blog
+title: 小江戈的BLOG
 ---
 <p>
 &nbsp; Happy coding.
