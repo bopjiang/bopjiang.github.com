@@ -8,10 +8,10 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : bopjiang's blog
+title : 小江戈的BLOG
 tagline: Site Tagline
 author : 
-  name : Jiang Jia
+  name : bopjiang
   email : bopjiang@163.com
   github : bopjiang
 #  twitter : username
@@ -55,7 +55,7 @@ JB :
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
   BASE_PATH : false
-
+  
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
   #
