@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unix哲学"
-description: "uxin philosophy"
+description: "unix philosophy"
 category: blog
 tags: [linux]
 ---
