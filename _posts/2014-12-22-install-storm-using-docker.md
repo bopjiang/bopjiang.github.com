@@ -27,21 +27,21 @@ tags: [docker, storm, pip, fig]
 
   首先安装pip 
 
-  ~~~bash
-  $sudo apt-get install python-pip 
-  $sudo pip install fig
-  ~~~
+~~~bash
+$ sudo apt-get install python-pip 
+$ sudo pip install fig
+~~~
 
 * 安装storm-docker
 
-  ~~~bash
-  $mkdir storm && cd storm
-  $git clone https://github.com/wurstmeister/storm-docker.git
-  $cd storm-docker
-  $
-  $sudo fig up -d
-  $ ## 第一次会拉取镜像, 时间较长, 随后集群将启动
-  ~~~
+~~~bash
+$ mkdir storm && cd storm
+$ git clone https://github.com/wurstmeister/storm-docker.git
+$ cd storm-docker
+$ 
+$ sudo fig up -d
+$ ## 第一次会拉取镜像, 时间较长, 随后集群将启动
+~~~
 
 * storm集群UI: 
 
@@ -52,6 +52,6 @@ tags: [docker, storm, pip, fig]
 #### 加入topology
 * 新增一个topopogy到cluster: call-perf-topology
 
-  ~~~bash
-  $storm jar target/call-perf-0.1.0-jar-with-dependencies.jar com.uxin.storm.RollingTopWords call-perf-topology  remote -c nimbus.host=172.16.12.31 -c nimbus.thrift.port=49627
-  ~~~
+~~~bash
+$storm jar target/call-perf-0.1.0-jar-with-dependencies.jar com.uxin.storm.RollingTopWords call-perf-topology  remote -c nimbus.host=172.16.12.31 -c nimbus.thrift.port=49627
+~~~
