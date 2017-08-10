@@ -10,13 +10,13 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : 大江的BLOG
+title : happy coding monkey
 tagline: Site Tagline
 author :
   name : bopjiang
   email : bopjiang@163.com
   github : bopjiang
-#  twitter : username
+  twitter : bopjiang
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
