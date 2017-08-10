@@ -83,7 +83,7 @@ JB :
   #
   comments :
     provider : disqus
-    duoshuo :
+    disqus :
       short_name : bopjianggithubio
     livefyre :
       site_id : 123
