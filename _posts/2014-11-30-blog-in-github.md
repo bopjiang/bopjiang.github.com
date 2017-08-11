@@ -5,7 +5,7 @@ description: "blog"
 category: blog
 tags: [blog, github]
 ---
-{% include JB/setup %}
+
 
 注意：仅在Ubuntu 14.04环境下测试过。
 

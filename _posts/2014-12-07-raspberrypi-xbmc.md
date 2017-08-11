@@ -5,7 +5,7 @@ description: "XBMC on Respberry Pi"
 category: blog
 tags: ["Raspberry Pi", xbmc, tv]
 ---
-{% include JB/setup %}
+
 
 不知N年后，还有人知道[机顶盒](http://en.wikipedia.org/wiki/Set-top_box)是啥东西不。
 

@@ -5,7 +5,7 @@ description: "graphing"
 category: blog
 tags: [graphing, graphite, 度量]
 ---
-{% include JB/setup %}
+
 
 ### 基础知识
 - <https://graphite.readthedocs.org/en/latest/>  graphite doc

@@ -5,7 +5,7 @@ description: "ansible, remote ssh"
 category: blog
 tags: [OTT, VOIP]
 ---
-{% include JB/setup %}
+
 
 移动互联网时代，通过在手机上安装个APP打网络电话是再自然不过的事情了。
 

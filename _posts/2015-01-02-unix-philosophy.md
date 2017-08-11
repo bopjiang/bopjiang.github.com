@@ -5,7 +5,7 @@ description: "unix philosophy"
 category: blog
 tags: [linux]
 ---
-{% include JB/setup %}
+
 
 所谓道的东西，大概只能参悟，不是言语能表达的。
 

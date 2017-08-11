@@ -5,7 +5,7 @@ description: "Python UDP client"
 category: blog
 tags: [network, python]
 ---
-{% include JB/setup %}
+
 
 第一次写UDP程序，超乎寻常的简单
 

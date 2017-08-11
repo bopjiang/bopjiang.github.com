@@ -5,7 +5,7 @@ description: "Programming Storm using Pyleus"
 category: blog
 tags: [Storm, Big Data, python]
 ---
-{% include JB/setup %}
+
 
 ### Storm
 

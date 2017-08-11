@@ -5,7 +5,7 @@ description: "install storm cluster using docker"
 category: blog
 tags: [docker, storm, pip, fig]
 ---
-{% include JB/setup %}
+
 
 #### 基础
 * [storm](https://storm.apache.org/)

@@ -5,7 +5,7 @@ description: "website cannot open because font.google blocked"
 category: blog
 tags: [gwf]
 ---
-{% include JB/setup %}
+
 
 经常打开[readthedocs.org](https://readthedocs.org)网站时，页面崩溃或很长时间才打开，看了下基本都用到fonts.googleapis提供的字体的服务。
 

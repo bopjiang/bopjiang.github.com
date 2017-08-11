@@ -5,7 +5,7 @@ description: "stop writing technical documentation using MS Word"
 category: blog
 tags: [wiki, UML]
 ---
-{% include JB/setup %}
+
 
 #### 技术文档特点
 - 多人参与撰写、维护

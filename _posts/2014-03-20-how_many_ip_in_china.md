@@ -5,7 +5,7 @@ description: "ip地址统计"
 category: blog
 tags: [linux, bash, network]
 ---
-{% include JB/setup %}
+
 
 获取全球IP地址分配列表
 -------

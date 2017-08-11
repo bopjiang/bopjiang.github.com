@@ -5,7 +5,7 @@ description: "Raspberry Pi for beginners"
 category: blog
 tags: ["Raspberry Pi", Linux]
 ---
-{% include JB/setup %}
+
 
 Raspberry Pi 入手两年了，除了装过XMBC看电视外，基本没怎么用了。偶然在图书馆发现这本[<<Raspberry Pi入门指南>>](http://book.douban.com/subject/26336217/)，作为入门读物还是不错的。
 

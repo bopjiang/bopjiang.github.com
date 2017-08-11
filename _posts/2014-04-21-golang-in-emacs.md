@@ -5,7 +5,7 @@ description: "golang programming in emacs"
 category: blog
 tags: [linux, emacs, golang]
 ---
-{% include JB/setup %}
+
 
 ### 环境
 Ubuntu 12.04， Emacs 23, 中文输入法fcitx

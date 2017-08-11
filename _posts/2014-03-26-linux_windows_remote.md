@@ -5,7 +5,7 @@ description: "远程访问remote"
 category: blog
 tags: [linux, windows, remote, 远程]
 ---
-{% include JB/setup %}
+
 
 windows访问linux
 -------
