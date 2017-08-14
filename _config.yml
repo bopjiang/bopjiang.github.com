@@ -2,7 +2,7 @@
 markdown:         kramdown
 
 # Permalinks
-permalink:        /:year/:month/:day/:title/
+permalink:        /blog/:year/:month/:day/:title/
 
 # Setup
 title:            bopjiang
