@@ -3,7 +3,7 @@ layout: post
 title: "使用emacs进行golang编程"
 description: "golang programming in emacs"
 category: blog
-tags: [linux, emacs, golang]
+tags: [linux, emacs, Golang]
 ---
 
 

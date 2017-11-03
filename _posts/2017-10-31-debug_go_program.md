@@ -2,8 +2,8 @@
 layout: post
 title: "Golang程序问题定位方法"
 description: "debug go program"
-category: Golang
-tags: []
+category: blog
+tags: [Golang]
 
 ---
 
