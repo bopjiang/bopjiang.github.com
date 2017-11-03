@@ -3,7 +3,7 @@ layout: post
 title: "Measure, Statsd and Graphite"
 description: "Graphite"
 category: blog
-tags: [graphite, statsd, 度量]
+tags: [metrics]
 ---
 
 

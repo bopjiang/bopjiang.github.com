@@ -3,7 +3,7 @@ layout: post
 title: "Hello world"
 description: "测试"
 category: blog
-tags: [linux, 技术]
+tags: []
 ---
 开始
 -------

@@ -3,7 +3,7 @@ layout: post
 title: "《Raspberry Pi入门指南》读书笔记"
 description: "Raspberry Pi for beginners"
 category: blog
-tags: ["Raspberry Pi", Linux]
+tags: ["Raspberry Pi", linux]
 ---
 
 

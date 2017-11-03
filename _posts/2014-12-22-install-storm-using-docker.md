@@ -3,7 +3,7 @@ layout: post
 title: "使用docker安装storm集群"
 description: "install storm cluster using docker"
 category: blog
-tags: [docker, storm, pip, fig]
+tags: [docker, Database]
 ---
 
 

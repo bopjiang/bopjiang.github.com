@@ -3,7 +3,7 @@ layout: post
 title: "使用graphite做指标统计和绘图"
 description: "graphing"
 category: blog
-tags: [graphing, graphite, 度量]
+tags: [metrics]
 ---
 
 

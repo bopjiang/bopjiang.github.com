@@ -3,7 +3,7 @@ layout: post
 title: "使用Pyleus开发Storm应用"
 description: "Programming Storm using Pyleus"
 category: blog
-tags: [Storm, Big Data, python]
+tags: [Database, python]
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "网络电话几种模式"
 description: "ansible, remote ssh"
 category: blog
-tags: [OTT, VOIP]
+tags: [VOIP]
 ---
 
 

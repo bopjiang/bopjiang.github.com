@@ -3,7 +3,7 @@ layout: post
 title: "使用jekyll-bootstrap和github建立个人博客"
 description: "blog"
 category: blog
-tags: [blog, github]
+tags: []
 ---
 
 

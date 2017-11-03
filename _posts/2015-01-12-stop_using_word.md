@@ -3,7 +3,7 @@ layout: post
 title: "停止使用MS Word撰写技术文档"
 description: "stop writing technical documentation using MS Word"
 category: blog
-tags: [wiki, UML]
+tags: [wiki]
 ---
 
 
