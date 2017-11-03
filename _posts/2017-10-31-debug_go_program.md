@@ -5,6 +5,8 @@ description: "debug go program"
 category: Golang
 tags: []
 
+---
+
 本文总结的方法对Go1.6及以后版本有效。
 
 ## 运行时问题
