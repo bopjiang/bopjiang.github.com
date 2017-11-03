@@ -45,7 +45,13 @@ curl http://server:port/debug/pprof/goroutine?debug=2
 最后的等待时间对定位程序挂起的问题很有用。譬如某个goroutine的channel写入阻塞了1个小时，那很有可能此channel的消费端出了问题。
 
 ~~~bash
-goroutine 18 [chan receive]:
+goroutine 47 [chan receive, 3 minutes]:
+main.foo(0x1d)
+	/Users/bopjiang/code/test/go/stackdump.go:23 +0x7c
+created by main.main
+	/Users/bopjiang/code/test/go/stackdump.go:33 +0xae
+        
+goroutine 48 [chan receive, 3 minutes]:
 main.foo(0x0)
 	/Users/bopjiang/code/test/go/stackdump.go:18 +0x43
 created by main.main
@@ -97,10 +103,10 @@ created by main.main
 	/Users/bopjiang/code/test/go/stackdump.go:33 +0xae
 ~~~
 
-此时可以依靠[Race Detector](https://blog.golang.org/race-detector)。写测试用例做race检查是一个办法。还可以将线上的某台机器运行race版本，等待问题，或者复制客户端请求重现。race detector对性能影响非常大，这点线上要注意。
+此时可以依靠[Race Detector](https://blog.golang.org/race-detector)。写测试用例做race检查是一个办法。还可以将线上的某台机器运行race版本，等待问题，或者复制客户端请求重现。race detector对性能影响非常大，这点上线时要注意。
 
 ## core dump
-最后还有一个办法就是看core dump，可以看到程序的完整状态。这篇文章[Debugging Go core dumps](https://rakyll.org/coredumps/)总结很好。
+最后还有一个办法就是看core dump，可以看到程序的完整状态。这篇文章[Debugging Go core dumps](https://rakyll.org/coredumps/)总结得很好。
 
 
 ## 性能分析
