@@ -112,4 +112,22 @@ created by main.main
 ## 性能分析
 除了崩溃，挂死问题，很多性能方面问题必须依赖profile和指标监控：
 - [Profiling Go Programs](https://blog.golang.org/profiling-go-programs)
+
+~~~bash
+# CPU Profile
+$ curl -s -o cpu.pprof http://server:port/debug/pprof/profile ./server # 30-second CPU profile
+$ go tool pprof cpu.pprof
+Type: cpu
+Time: Nov 14, 2017 at 7:43pm (CST)
+Duration: 30s, Total samples = 0
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) web       
+# 会生成SVG图(需要安装graphviz)， 网上也有生成火焰图的例子
+
+# Heap Profile
+go tool pprof http://server:port/debug/pprof/heap ./server   
+# goroutine blocking profile
+go tool pprof http://server:port/debug/pprof/block ./server    
+~~~
+
 - 通过程序自己上报指标，在TSDB中做回溯分析。程序中buffered channel的长度最好都做下监控。 这块一般都是[Promethues](https://prometheus.io/) 搭配[Grafana](https://grafana.com/)使用。
