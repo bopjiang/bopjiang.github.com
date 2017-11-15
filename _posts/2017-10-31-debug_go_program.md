@@ -115,7 +115,7 @@ created by main.main
 
 ~~~bash
 # CPU Profile
-$ curl -s -o cpu.pprof http://server:port/debug/pprof/profile ./server # 30-second CPU profile
+$ curl -s -o cpu.pprof ./server http://server:port/debug/pprof/profile # 30-second CPU profile
 $ go tool pprof cpu.pprof
 Type: cpu
 Time: Nov 14, 2017 at 7:43pm (CST)
@@ -125,9 +125,9 @@ Entering interactive mode (type "help" for commands, "o" for options)
 # 会生成SVG图(需要安装graphviz)， 网上也有生成火焰图的例子
 
 # Heap Profile
-go tool pprof http://server:port/debug/pprof/heap ./server   
+go tool pprof ./server http://server:port/debug/pprof/heap    
 # goroutine blocking profile
-go tool pprof http://server:port/debug/pprof/block ./server    
+go tool pprof ./server http://server:port/debug/pprof/block  
 ~~~
 
 - 通过程序自己上报指标，在TSDB中做回溯分析。程序中buffered channel的长度最好都做下监控。 这块一般都是[Promethues](https://prometheus.io/) 搭配[Grafana](https://grafana.com/)使用。
