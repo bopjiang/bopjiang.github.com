@@ -90,11 +90,10 @@ WebSocket的设计本质上存在一个问题: 它底层的TCP是一个流式协
 
 1. [apigee API design](https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf)
 
-2. [Wowza Streaming Cloud REST API Documentation] (https://sandbox.cloud.wowza.com/api/current/docs)
+2. [Wowza Streaming Cloud REST API Documentation](https://sandbox.cloud.wowza.com/api/current/docs)
 
-3. [Google APIs](
-https://github.com/googleapis/googleapis)
+3. [Google APIs](https://github.com/googleapis/googleapis)
 
 4. [Twilio API doc](https://www.twilio.com/docs/usage/api)
 
-5. [go-restful] https://github.com/emicklei/go-restful, K8S在使用, 可由代码生成Swagger.
+5. [go-restful](https://github.com/emicklei/go-restful), K8S在使用, 可由代码生成Swagger.
