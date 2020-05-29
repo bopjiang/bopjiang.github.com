@@ -30,7 +30,7 @@ env GOOS=linux GOARCH=arm go build -v github.com/constabulary/gb/cmd/gb
 
 下面的讨论都假设在x86-64 Linux平台下:
 
-编译好的Go程序都是ELF格式的可执行文件，一个单进场多线程程序（跟kernel一样）。如果加上CGO_ENABLED=0静态编译选项，编译出的二进制文件跟libc没有依赖，这意味着在构建docker镜像时，可以直接通过scratch+Go二进制文件构建相当小的镜像。 这也是为什么类似于agent的程序，我更倾向用go编写（如ELK栈中的[beats](https://github.com/elastic/beats))。
+编译好的Go程序都是ELF格式的可执行文件，一个单进程多线程程序（跟kernel一样）。如果加上CGO_ENABLED=0编译选项，编译出的二进制文件跟libc没有依赖，这意味着在构建docker镜像时，可以直接通过scratch+Go二进制文件构建相当小的镜像。 这也是为什么类似于agent的程序，我更倾向用go编写（如ELK栈中的[beats](https://github.com/elastic/beats))。
 
 go源代码工程中几个重要的目录：
 - src/cmd/compile  编译, 有31万行go代码, 有很大部分是生成的rewrite代码。// ??? 部分由之前的C代码机器翻译过来的[GopherCon 2014 Go from C to Go by Russ Cox](https://www.youtube.com/watch?v=QIE5nV5fDwA)
